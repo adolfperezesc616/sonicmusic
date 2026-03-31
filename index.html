@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archivo Sonic: velocidad, juegos y legado musical</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar">
+          <span class="brand">Archivo Sonic</span>
+          <a href="#juegos" class="toplink">Ver juegos destacados</a>
+        </nav>
+
+        <div class="hero-copy">
+          <p class="eyebrow">Sonic the Hedgehog</p>
+          <h1>Archivo Sonic: una experiencia con más velocidad, música e identidad del erizo mas famoso.</h1>
+          <p class="lead">
+            Este sitio resume algunos de los juegos más importantes de Sonic y reúne
+            sus canciones más recordadas con información clave: año, compositor,
+            intérpretes, contexto y legado dentro de la saga.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#canciones">Explorar canciones</a>
+            <a class="button secondary" href="#linea-tiempo">Ver cronología</a>
+          </div>
+        </div>
+
+        <aside class="hero-visual" aria-label="Imagen destacada de Sonic">
+          <img
+            src="sonic portada.png"
+            alt="Imagen principal de Sonic para la portada"
+          />
+          <div class="orbit orbit-one">Velocidad</div>
+          <div class="orbit orbit-two">Rock</div>
+          <div class="orbit orbit-three">Historia</div>
+        </aside>
+
+        <section class="hero-panel">
+          <article>
+            <span class="metric">1991</span>
+            <p>Debut oficial de Sonic como personaje de Sega.</p>
+          </article>
+          <article>
+            <span class="metric">7</span>
+            <p>Juegos esenciales seleccionados para esta primera versión.</p>
+          </article>
+          <article>
+            <span class="metric">12</span>
+            <p>Canciones destacadas con datos sobre autores, voces y origen.</p>
+          </article>
+        </section>
+      </header>
+
+      <main>
+        <section class="section intro" id="sonic">
+          <div class="section-heading">
+            <p class="eyebrow">Perfil</p>
+            <h2>¿Quién es Sonic?</h2>
+          </div>
+          <div class="intro-grid">
+            <p>
+              Sonic the Hedgehog es el personaje más emblemático de Sega y una de las
+              figuras más influyentes de la historia de los videojuegos. Su identidad
+              mezcla velocidad, actitud heroica, diseño icónico y una tradición musical
+              muy fuerte que cambió de estilo con cada generación.
+            </p>
+            <p>
+              Desde los temas melódicos de la era de 16 bits hasta los himnos de rock,
+              pop y electrónica de los juegos modernos, la música de Sonic se convirtió
+              en una parte esencial de la experiencia. Por eso esta página se centra
+              tanto en los juegos como en las canciones que más marcaron a los fans.
+            </p>
+          </div>
+        </section>
+
+        <section class="section gallery" id="galeria">
+          <div class="section-heading">
+            <p class="eyebrow">Galería</p>
+            <h2>Imágenes de Sonic y su universo</h2>
+          </div>
+          <div class="gallery-grid">
+            <figure class="gallery-card gallery-card-large">
+              <img
+                src="green hill.png"
+                alt="Green Hill Zone, escenario clásico asociado a Sonic"
+                loading="lazy"
+              />
+              <figcaption>Green Hill Zone, una de las estampas más reconocibles de la saga.</figcaption>
+            </figure>
+            <figure class="gallery-card">
+              <img
+                src="sonic musica.jpg"
+                alt="Imagen relacionada con la música de Sonic"
+                loading="lazy"
+              />
+              <figcaption>La identidad musical de Sonic es una parte central de su legado.</figcaption>
+            </figure>
+            <figure class="gallery-card">
+              <img
+                src="Sonic Logo.png"
+                alt="Logo clásico de Sonic"
+                loading="lazy"
+              />
+              <figcaption>El logo clásico mantiene la identidad visual más famosa de Sonic.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="section timeline" id="linea-tiempo">
+          <div class="section-heading">
+            <p class="eyebrow">Cronología</p>
+            <h2>Juegos famosos de Sonic a través del tiempo</h2>
+          </div>
+          <div class="timeline-track" id="timeline-track"></div>
+        </section>
+
+        <section class="section games" id="juegos">
+          <div class="section-heading">
+            <p class="eyebrow">Selección</p>
+            <h2>Opciones de juegos más famosos</h2>
+          </div>
+
+          <div class="game-selector" id="game-selector" aria-label="Lista de juegos"></div>
+          <article class="game-detail" id="game-detail"></article>
+        </section>
+
+        <section class="section songs" id="canciones">
+          <div class="section-heading">
+            <p class="eyebrow">Música</p>
+            <h2>Canciones más famosas de Sonic en esta selección</h2>
+          </div>
+          <div class="songs-banner">
+            <img src="assets/sonic-music.svg" alt="Ilustración con anillos dorados y notas musicales inspirada en Sonic" />
+            <div>
+              <h3>Escucha y compara las canciones más representativas</h3>
+              <p>
+                Cada tarjeta incluye enlaces rápidos para buscar la pista en plataformas
+                principales y descubrir cómo cambió el sonido de Sonic entre generaciones.
+              </p>
+            </div>
+          </div>
+          <div class="song-grid" id="song-grid"></div>
+        </section>
+
+        <section class="section notes">
+          <div class="section-heading">
+            <p class="eyebrow">Reseña</p>
+            <h2>Reseña de las canciones de Sonic</h2>
+          </div>
+          <div class="notes-grid">
+            <article>
+              <h3>Un sonido con identidad propia</h3>
+              <p>
+                La música de Sonic no funciona solo como acompañamiento: define la
+                personalidad de cada juego. Desde melodías de 16 bits hasta himnos de
+                rock y temas electrónicos, cada etapa de la saga tiene un sello sonoro.
+              </p>
+            </article>
+            <article>
+              <h3>De la velocidad al espectáculo</h3>
+              <p>
+                Canciones como “Open Your Heart”, “Live & Learn” o “Reach for the Stars”
+                se volvieron famosas porque acompañan momentos clave y transmiten la idea
+                de movimiento, emoción y desafío que caracteriza a Sonic.
+              </p>
+            </article>
+            <article>
+              <h3>Un legado muy querido por los fans</h3>
+              <p>
+                La banda sonora de Sonic es una de las más recordadas de los videojuegos.
+                Su variedad, su energía y sus compositores hicieron que muchas canciones
+                siguieran vivas fuera de los juegos, en conciertos, playlists y homenajes.
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="720" rx="48" fill="url(#bg)"/>
+  <circle cx="546" cy="170" r="78" fill="url(#sun)" opacity="0.95"/>
+  <circle cx="126" cy="554" r="58" stroke="#FFCC4D" stroke-width="14"/>
+  <circle cx="606" cy="516" r="42" stroke="#FFCC4D" stroke-width="12"/>
+  <circle cx="185" cy="163" r="34" stroke="#FFCC4D" stroke-width="10"/>
+  <path d="M127 418C195 363 259 304 319 242C361 199 426 172 498 185C415 224 389 270 362 322C428 297 483 301 565 329C486 347 438 382 401 428C352 489 283 545 155 566L252 473L127 418Z" fill="url(#sonic)" stroke="#7AD9FF" stroke-width="8"/>
+  <path d="M276 214L354 142L348 240L276 214Z" fill="#6AD1FF"/>
+  <path d="M326 169L400 113L396 219L326 169Z" fill="#A8EEFF"/>
+  <path d="M235 269L308 213L294 317L235 269Z" fill="#2CA3FF"/>
+  <path d="M400 430C447 401 506 397 557 419" stroke="#EDF8FF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M140 413C245 359 318 290 390 200" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="8" stroke-linecap="round" stroke-dasharray="14 14"/>
+  <path d="M101 476C220 429 326 352 433 219" stroke="#2FB6FF" stroke-width="12" stroke-linecap="round" stroke-opacity="0.55"/>
+  <path d="M248 575H590" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="10" stroke-linecap="round"/>
+  <path d="M472 494C485 474 514 468 535 481C554 493 560 519 548 537C534 559 506 565 486 551C467 538 460 513 472 494Z" fill="#F7D157"/>
+  <circle cx="499" cy="510" r="8" fill="#FFF2B1"/>
+  <defs>
+    <linearGradient id="bg" x1="40" y1="22" x2="650" y2="686" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A2C51"/>
+      <stop offset="0.45" stop-color="#0A5BA7"/>
+      <stop offset="1" stop-color="#041423"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(546 170) rotate(90) scale(78)">
+      <stop stop-color="#FFE38D"/>
+      <stop offset="1" stop-color="#FFCC4D" stop-opacity="0.1"/>
+    </radialGradient>
+    <linearGradient id="sonic" x1="176" y1="196" x2="538" y2="564" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A7F1FF"/>
+      <stop offset="0.38" stop-color="#1FA6FF"/>
+      <stop offset="1" stop-color="#0A3B88"/>
+    </linearGradient>
+  </defs>
+</svg>
